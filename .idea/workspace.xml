@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fb70ebda-e5ad-4f3e-ab78-ba37406bddfc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/level_2/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/level_2/bunny_prisoner_locating/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/level_2/bunny_prisoner_locating/bunny_prisoner_locating.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/google foobar.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/google foobar.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/level_2/bunny_prisoner_locating/bunny_prisoner_locating.py" beforeDir="false" afterPath="$PROJECT_DIR$/level_2/bunny_prisoner_locating/bunny_prisoner_locating.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,12 +52,28 @@
       <option name="presentableId" value="Default" />
       <updated>1588387755798</updated>
     </task>
+    <task id="LOCAL-00001" summary="first version of bunny_prisoner_locating.py">
+      <created>1588455402869</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1588455402869</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="first version of bunny_prisoner_locating.py" />
+    <option name="LAST_COMMIT_MESSAGE" value="first version of bunny_prisoner_locating.py" />
   </component>
   <component name="WindowStateProjectService">
     <state x="140" y="111" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1588388220318">
       <screen x="0" y="0" width="1368" height="912" />
     </state>
     <state x="140" y="111" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1368.912@0.0.1368.912" timestamp="1588388220318" />
+    <state x="337" y="127" key="CommitChangelistDialog2" timestamp="1588455402352">
+      <screen x="0" y="23" width="1920" height="1057" />
+    </state>
+    <state x="337" y="127" key="CommitChangelistDialog2/0.23.1920.1057@0.23.1920.1057" timestamp="1588455402352" />
   </component>
 </project>
