@@ -1,8 +1,4 @@
-class Node:
-    def __init__(self, value, left=None, right=None):
-        self.value = value
-        self.left = left
-        self.right = right
+import numpy as np
 
 
 def generate_cells(x_coord, y_coord):
@@ -64,7 +60,7 @@ def solution(x, y):
 
         y_cell_number += y_delta
         y_delta += 1
-        print(cells[row])
+        print(row)
     # print(x-1)
     # print(y-1)
     return str(cells[y - 1][x - 1])
@@ -74,9 +70,9 @@ print(solution(1, 1))
 print(solution(2, 3))
 print(solution(3, 2))
 print(solution(5, 10))
-#print(solution(100000, 100000))
-print(solution(100,100))
-print(solution(200,200))
+'''print(solution(100, 100))
+print(solution(200, 200))'''
+#print(solution(10000, 10000))
 
 '''generated_cell_list = generate_cells(8, 8)
 for y in range(len(generated_cell_list)):
