@@ -1,4 +1,4 @@
-import numpy as np
+import sys
 
 
 def generate_cells(x_coord, y_coord):
@@ -49,28 +49,17 @@ def solution(x, y):
         x_delta += 1
 
     #print(cells)
-
-    y_cell_number = x_cell_number
-    y_delta = x_delta
+    y_cell_number = x_cell_number-1
+    y_delta = x_delta-1
+    #print('y_delta = {}'.format(y_delta))
 
     for row in range(y_coord):
-        y_cell_number += y_delta
+        #print(y_cell_number)
         cells.append([y_cell_number])
-        y_delta += 1
-        print(cells[row])
-
-    '''for row in range(y_coord):
-        # print('row {}'.format(row))
-        cells.append([y_cell_number])
-        x_cell_number = y_cell_number
-        starting_x_delta = row + 2
-        x_delta = starting_x_delta
-
         y_cell_number += y_delta
         y_delta += 1
-        print(row)
-    # print(x-1)
-    # print(y-1)'''
+        #print(cells[row+1])
+
     return str(cells[y-1][0])
 
 
@@ -80,7 +69,9 @@ print(solution(3, 2))
 print(solution(5, 10))
 '''print(solution(100, 100))
 print(solution(200, 200))'''
-#print(solution(10000, 10000))
+print(solution(100000, 100000))
+print(sys.maxint)
+print(sys.maxint > solution(100000, 100000))
 
 '''generated_cell_list = generate_cells(8, 8)
 for y in range(len(generated_cell_list)):
