@@ -34,33 +34,25 @@ def generate_cells(x_coord, y_coord):
 
 
 def solution(x, y):
-    cells = [[]]
     x_coord = x
     y_coord = y
 
     x_cell_number = 1
     x_delta = 2
-    starting_x_delta = 2
-    sxd_delta = 1
 
     for col in range(x_coord):
-        cells[0].append(x_cell_number)
         x_cell_number += x_delta
         x_delta += 1
+    y_cell_number = x_cell_number - 1
+    y_delta = x_delta - 1
 
-    #print(cells)
-    y_cell_number = x_cell_number-1
-    y_delta = x_delta-1
-    #print('y_delta = {}'.format(y_delta))
-
-    for row in range(y_coord):
-        #print(y_cell_number)
-        cells.append([y_cell_number])
+    for row in range(y_coord - 2):
         y_cell_number += y_delta
         y_delta += 1
-        #print(cells[row+1])
 
-    return str(cells[y-1][0])
+    output = y_cell_number
+
+    return str(output)
 
 
 print(solution(1, 1))
@@ -69,9 +61,11 @@ print(solution(3, 2))
 print(solution(5, 10))
 '''print(solution(100, 100))
 print(solution(200, 200))'''
+print(solution(10, 10))
+print(solution(100, 100))
+print(solution(1000, 1000))
+print(solution(10000, 10000))
 print(solution(100000, 100000))
-print(sys.maxint)
-print(sys.maxint > solution(100000, 100000))
 
 '''generated_cell_list = generate_cells(8, 8)
 for y in range(len(generated_cell_list)):
