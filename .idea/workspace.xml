@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fb70ebda-e5ad-4f3e-ab78-ba37406bddfc" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/google foobar.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/google foobar.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/level_2/bunny_prisoner_locating/bunny_prisoner_locating.py" beforeDir="false" afterPath="$PROJECT_DIR$/level_2/bunny_prisoner_locating/bunny_prisoner_locating.py" afterDir="false" />
     </list>
@@ -62,7 +60,14 @@
       <option name="project" value="LOCAL" />
       <updated>1588455402869</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="first version of bunny_prisoner_locating.py">
+      <created>1588462621430</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1588462621430</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -74,9 +79,10 @@
       <screen x="0" y="0" width="1368" height="912" />
     </state>
     <state x="140" y="111" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1368.912@0.0.1368.912" timestamp="1588388220318" />
-    <state x="337" y="127" key="CommitChangelistDialog2" timestamp="1588455402352">
-      <screen x="0" y="23" width="1920" height="1057" />
+    <state x="240" y="90" key="CommitChangelistDialog2" timestamp="1588462620664">
+      <screen x="0" y="0" width="1368" height="912" />
     </state>
+    <state x="240" y="90" key="CommitChangelistDialog2/0.0.1368.912@0.0.1368.912" timestamp="1588462620664" />
     <state x="337" y="127" key="CommitChangelistDialog2/0.23.1920.1057@0.23.1920.1057" timestamp="1588455402352" />
   </component>
 </project>

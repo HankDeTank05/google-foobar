@@ -34,7 +34,7 @@ def generate_cells(x_coord, y_coord):
 
 
 def solution(x, y):
-    cells = []
+    cells = [[]]
     x_coord = x
     y_coord = y
 
@@ -43,27 +43,35 @@ def solution(x, y):
     starting_x_delta = 2
     sxd_delta = 1
 
-    y_cell_number = 1
-    y_delta = 1
+    for col in range(x_coord):
+        cells[0].append(x_cell_number)
+        x_cell_number += x_delta
+        x_delta += 1
+
+    #print(cells)
+
+    y_cell_number = x_cell_number
+    y_delta = x_delta
 
     for row in range(y_coord):
+        y_cell_number += y_delta
+        cells.append([y_cell_number])
+        y_delta += 1
+        print(cells[row])
+
+    '''for row in range(y_coord):
         # print('row {}'.format(row))
         cells.append([y_cell_number])
         x_cell_number = y_cell_number
         starting_x_delta = row + 2
         x_delta = starting_x_delta
 
-        for col in range(x_coord + 1):
-            x_cell_number += x_delta
-            cells[row].append(x_cell_number)
-            x_delta += 1
-
         y_cell_number += y_delta
         y_delta += 1
         print(row)
     # print(x-1)
-    # print(y-1)
-    return str(cells[y - 1][x - 1])
+    # print(y-1)'''
+    return str(cells[y-1][0])
 
 
 print(solution(1, 1))
