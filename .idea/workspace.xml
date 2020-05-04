@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fb70ebda-e5ad-4f3e-ab78-ba37406bddfc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/level_2/bunny_prisoner_locating/Screen Shot 2020-05-02 at 8.00.59 PM.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/level_2/hey-i-already-did-that/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/level_2/hey-i-already-did-that/hey_i_already_did_that.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/level_2/bunny_prisoner_locating/bunny_prisoner_locating.py" beforeDir="false" afterPath="$PROJECT_DIR$/level_2/bunny_prisoner_locating/bunny_prisoner_locating.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,7 +32,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -94,13 +94,17 @@
     </state>
     <state x="240" y="-1" width="691" height="526" key="CommitChangelistDialog2/0.0.1368.912@0.0.1368.912" timestamp="1588464891127" />
     <state x="337" y="127" key="CommitChangelistDialog2/0.23.1920.1057@0.23.1920.1057" timestamp="1588465875493" />
-    <state x="469" y="190" key="SettingsEditor" timestamp="1588465203718">
+    <state x="469" y="190" key="SettingsEditor" timestamp="1588475717065">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
-    <state x="469" y="190" key="SettingsEditor/0.23.1920.1057@0.23.1920.1057" timestamp="1588465203718" />
+    <state x="469" y="190" key="SettingsEditor/0.23.1920.1057@0.23.1920.1057" timestamp="1588475717065" />
     <state x="763" y="472" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1588465334372">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
     <state x="763" y="472" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1920.1057@0.23.1920.1057" timestamp="1588465334372" />
+    <state x="305" y="258" width="670" height="676" key="search.everywhere.popup" timestamp="1588555054308">
+      <screen x="0" y="23" width="1920" height="1057" />
+    </state>
+    <state x="305" y="258" width="670" height="676" key="search.everywhere.popup/0.23.1920.1057@0.23.1920.1057" timestamp="1588555054308" />
   </component>
 </project>
