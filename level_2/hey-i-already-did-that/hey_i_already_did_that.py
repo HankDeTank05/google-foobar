@@ -82,28 +82,21 @@ def solution(n, b):
         # if numbers are not in base 10, must convert from base 10 back to base b
         z_str = str(z_int)
         if b != 10:
-            if b == 2:
-                z_str = str(bin(z_int))
-            elif b == 8:
-                z_str = str(oct(z_int))
-            elif b == 16:
-                z_str = str(hex(z_int))
-            else:
-                z_str = ''
-                # rems = a list of remainders when repeatedly saving the remainder of z_int/b
-                rems = []
-                # repeatedly divide z_int by b, saving the remainders each time
-                # (to form the number in base b from base 10)
-                while z_int > 0:
-                    rem = z_int % b
-                    rems.append(rem)
-                    z_int //= b
-                    # print(rems)
-                for d in range(len(rems)):
-                    digit = str(rems.pop())
-                    # print(digit)
-                    z_str += str(digit)
-                    # print(z_str)
+            z_str = ''
+            # rems = a list of remainders when repeatedly saving the remainder of z_int/b
+            rems = []
+            # repeatedly divide z_int by b, saving the remainders each time
+            # (to form the number in base b from base 10)
+            while z_int > 0:
+                rem = z_int % b
+                rems.append(rem)
+                z_int //= b
+                # print(rems)
+            for d in range(len(rems)):
+                digit = str(rems.pop())
+                # print(digit)
+                z_str += str(digit)
+                # print(z_str)
 
         # print('z_int = {}'.format(z_int))
 
