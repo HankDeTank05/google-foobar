@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fb70ebda-e5ad-4f3e-ab78-ba37406bddfc" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/level_2/hey-i-already-did-that/hey_i_already_did_that.py" beforeDir="false" afterPath="$PROJECT_DIR$/level_2/hey-i-already-did-that/hey_i_already_did_that.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,13 +33,14 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\henry\PycharmProjects\google foobar" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/level_2/hey-i-already-did-that" />
       <recent name="$PROJECT_DIR$/level_2/bunny_prisoner_locating" />
       <recent name="C:\Users\henry\PycharmProjects\google foobar\level_1" />
       <recent name="C:\Users\henry\PycharmProjects\google foobar\braille_translation" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\henry\PycharmProjects\google foobar" />
     </key>
   </component>
   <component name="SvnConfiguration">
@@ -81,25 +82,40 @@
       <option name="project" value="LOCAL" />
       <updated>1588556719375</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="passed all 10 test cases for hey_i_already_did_that.py">
+      <created>1588556824175</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1588556824175</updated>
+    </task>
+    <task id="LOCAL-00006" summary="passed all 10 test cases for hey_i_already_did_that.py">
+      <created>1588556894613</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1588556894613</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first version of bunny_prisoner_locating.py" />
     <MESSAGE value="finished slimming down logic of first version, need to clean up the code" />
     <MESSAGE value="passed 8/10 test cases (failed 3 and 6) for hey_i_already_did_that.py" />
-    <option name="LAST_COMMIT_MESSAGE" value="passed 8/10 test cases (failed 3 and 6) for hey_i_already_did_that.py" />
+    <MESSAGE value="passed all 10 test cases for hey_i_already_did_that.py" />
+    <option name="LAST_COMMIT_MESSAGE" value="passed all 10 test cases for hey_i_already_did_that.py" />
   </component>
   <component name="WindowStateProjectService">
     <state x="140" y="111" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1588388220318">
       <screen x="0" y="0" width="1368" height="912" />
     </state>
     <state x="140" y="111" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1368.912@0.0.1368.912" timestamp="1588388220318" />
-    <state x="337" y="127" width="691" height="526" key="CommitChangelistDialog2" timestamp="1588556718239">
+    <state x="337" y="127" width="691" height="526" key="CommitChangelistDialog2" timestamp="1588556894296">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
     <state x="240" y="-1" width="691" height="526" key="CommitChangelistDialog2/0.0.1368.912@0.0.1368.912" timestamp="1588464891127" />
-    <state x="337" y="127" key="CommitChangelistDialog2/0.23.1920.1057@0.23.1920.1057" timestamp="1588556718239" />
+    <state x="337" y="127" key="CommitChangelistDialog2/0.23.1920.1057@0.23.1920.1057" timestamp="1588556894296" />
     <state x="469" y="190" key="SettingsEditor" timestamp="1588475717065">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
