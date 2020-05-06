@@ -19,9 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fb70ebda-e5ad-4f3e-ab78-ba37406bddfc" name="Default Changelist" comment="passed 2/5 test cases">
-      <change beforePath="$PROJECT_DIR$/.idea/google foobar.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/google foobar.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="fb70ebda-e5ad-4f3e-ab78-ba37406bddfc" name="Default Changelist" comment="successfully optimized code (switched from bfs to iddfs)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/level_3/1_bomb-baby/bomb_baby.py" beforeDir="false" afterPath="$PROJECT_DIR$/level_3/1_bomb-baby/bomb_baby.py" afterDir="false" />
     </list>
@@ -167,7 +165,8 @@
     <MESSAGE value="passed all 10 test cases for hey_i_already_did_that.py" />
     <MESSAGE value="first try with bomb_baby.py, failed 5/5 test cases" />
     <MESSAGE value="passed 2/5 test cases" />
-    <option name="LAST_COMMIT_MESSAGE" value="passed 2/5 test cases" />
+    <MESSAGE value="successfully optimized code (switched from bfs to iddfs)" />
+    <option name="LAST_COMMIT_MESSAGE" value="successfully optimized code (switched from bfs to iddfs)" />
   </component>
   <component name="WindowStateProjectService">
     <state x="131" y="120" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1588800076339">
@@ -180,42 +179,46 @@
     </state>
     <state x="240" y="-1" width="691" height="526" key="CommitChangelistDialog2/0.0.1368.912@0.0.1368.912" timestamp="1588464891127" />
     <state x="337" y="127" key="CommitChangelistDialog2/0.23.1920.1057@0.23.1920.1057" timestamp="1588556894296" />
+    <state x="92" y="92" width="1096" height="800" maximized="true" key="DiffContextDialog" timestamp="1588807863990">
+      <screen x="0" y="0" width="1280" height="984" />
+    </state>
+    <state x="92" y="92" width="1096" height="800" maximized="true" key="DiffContextDialog/0.0.1280.984@0.0.1280.984" timestamp="1588807863990" />
     <state x="560" y="285" key="FileChooserDialogImpl" timestamp="1588784313892">
       <screen x="0" y="0" width="1280" height="984" />
     </state>
     <state x="560" y="285" key="FileChooserDialogImpl/0.0.1280.984@0.0.1280.984" timestamp="1588784313892" />
-    <state width="1259" height="262" key="GridCell.Tab.0.bottom" timestamp="1588804238716">
+    <state width="1259" height="262" key="GridCell.Tab.0.bottom" timestamp="1588809188975">
       <screen x="0" y="0" width="1280" height="984" />
     </state>
-    <state width="1259" height="262" key="GridCell.Tab.0.bottom/0.0.1280.984@0.0.1280.984" timestamp="1588804238716" />
-    <state width="1259" height="262" key="GridCell.Tab.0.center" timestamp="1588804238716">
+    <state width="1259" height="262" key="GridCell.Tab.0.bottom/0.0.1280.984@0.0.1280.984" timestamp="1588809188975" />
+    <state width="1259" height="262" key="GridCell.Tab.0.center" timestamp="1588809188975">
       <screen x="0" y="0" width="1280" height="984" />
     </state>
-    <state width="1259" height="262" key="GridCell.Tab.0.center/0.0.1280.984@0.0.1280.984" timestamp="1588804238716" />
-    <state width="1259" height="262" key="GridCell.Tab.0.left" timestamp="1588804238716">
+    <state width="1259" height="262" key="GridCell.Tab.0.center/0.0.1280.984@0.0.1280.984" timestamp="1588809188975" />
+    <state width="1259" height="262" key="GridCell.Tab.0.left" timestamp="1588809188975">
       <screen x="0" y="0" width="1280" height="984" />
     </state>
-    <state width="1259" height="262" key="GridCell.Tab.0.left/0.0.1280.984@0.0.1280.984" timestamp="1588804238716" />
-    <state width="1259" height="262" key="GridCell.Tab.0.right" timestamp="1588804238716">
+    <state width="1259" height="262" key="GridCell.Tab.0.left/0.0.1280.984@0.0.1280.984" timestamp="1588809188975" />
+    <state width="1259" height="262" key="GridCell.Tab.0.right" timestamp="1588809188975">
       <screen x="0" y="0" width="1280" height="984" />
     </state>
-    <state width="1259" height="262" key="GridCell.Tab.0.right/0.0.1280.984@0.0.1280.984" timestamp="1588804238716" />
-    <state width="1259" height="325" key="GridCell.Tab.1.bottom" timestamp="1588802367538">
+    <state width="1259" height="262" key="GridCell.Tab.0.right/0.0.1280.984@0.0.1280.984" timestamp="1588809188975" />
+    <state width="1259" height="325" key="GridCell.Tab.1.bottom" timestamp="1588808022040">
       <screen x="0" y="0" width="1280" height="984" />
     </state>
-    <state width="1259" height="325" key="GridCell.Tab.1.bottom/0.0.1280.984@0.0.1280.984" timestamp="1588802367538" />
-    <state width="1259" height="325" key="GridCell.Tab.1.center" timestamp="1588802367538">
+    <state width="1259" height="325" key="GridCell.Tab.1.bottom/0.0.1280.984@0.0.1280.984" timestamp="1588808022040" />
+    <state width="1259" height="325" key="GridCell.Tab.1.center" timestamp="1588808022040">
       <screen x="0" y="0" width="1280" height="984" />
     </state>
-    <state width="1259" height="325" key="GridCell.Tab.1.center/0.0.1280.984@0.0.1280.984" timestamp="1588802367538" />
-    <state width="1259" height="325" key="GridCell.Tab.1.left" timestamp="1588802367538">
+    <state width="1259" height="325" key="GridCell.Tab.1.center/0.0.1280.984@0.0.1280.984" timestamp="1588808022040" />
+    <state width="1259" height="325" key="GridCell.Tab.1.left" timestamp="1588808022040">
       <screen x="0" y="0" width="1280" height="984" />
     </state>
-    <state width="1259" height="325" key="GridCell.Tab.1.left/0.0.1280.984@0.0.1280.984" timestamp="1588802367538" />
-    <state width="1259" height="325" key="GridCell.Tab.1.right" timestamp="1588802367538">
+    <state width="1259" height="325" key="GridCell.Tab.1.left/0.0.1280.984@0.0.1280.984" timestamp="1588808022040" />
+    <state width="1259" height="325" key="GridCell.Tab.1.right" timestamp="1588808022040">
       <screen x="0" y="0" width="1280" height="984" />
     </state>
-    <state width="1259" height="325" key="GridCell.Tab.1.right/0.0.1280.984@0.0.1280.984" timestamp="1588802367538" />
+    <state width="1259" height="325" key="GridCell.Tab.1.right/0.0.1280.984@0.0.1280.984" timestamp="1588808022040" />
     <state x="217" y="180" key="SettingsEditor" timestamp="1588800023070">
       <screen x="0" y="0" width="1280" height="984" />
     </state>
@@ -240,13 +243,38 @@
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/level_3/1_bomb-baby/bomb_baby.py</url>
-          <line>159</line>
+          <line>166</line>
           <option name="timeStamp" value="33" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/level_3/1_bomb-baby/bomb_baby.py</url>
+          <line>144</line>
+          <option name="timeStamp" value="43" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/level_3/1_bomb-baby/bomb_baby.py</url>
+          <line>152</line>
+          <option name="timeStamp" value="44" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/level_3/1_bomb-baby/bomb_baby.py</url>
+          <line>99</line>
+          <option name="timeStamp" value="46" />
+        </line-breakpoint>
       </breakpoints>
+      <default-breakpoints>
+        <breakpoint type="python-exception">
+          <properties notifyOnTerminate="true" exception="BaseException">
+            <option name="notifyOnTerminate" value="true" />
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
     </breakpoint-manager>
     <watches-manager>
       <configuration name="PythonConfigurationType">
+        <watch expression="previous_first_encounters" />
+        <watch expression="frontier_stack" />
+        <watch expression="first_encounters" />
         <watch expression="failed" />
         <watch expression="node_depth" />
         <watch expression="mach" />

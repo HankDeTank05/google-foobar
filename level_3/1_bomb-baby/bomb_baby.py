@@ -85,15 +85,18 @@ import timeit
     #print('total search time: {} {}'.format(time_amt, time_unit))
     return "impossible"'''
 
+import copy
+import numpy as np
 def solution(m, f):
-    tm = int(m)
-    tf = int(f)
+    tm = long(m)
+    tf = long(f)
     depth_limit = 0
     root = ((1, 1), 0)
     found = False
     failed = False
     repeat_comparison = None
     # perform iterative depth search
+    first_encounters = []
     while not failed:
         #print()
         print('depth_limit = {}'.format(depth_limit))
@@ -104,22 +107,24 @@ def solution(m, f):
                 return root[1]
         else:
             depth = 0
-            frontier_stack = [root]
+            if depth_limit == 1:
+                first_encounters = [root]
+            previous_first_encounters = copy.deepcopy(first_encounters)
             first_encounters = []
 
-            while len(frontier_stack) > 0:
+            while len(previous_first_encounters) > 0:
                 #time.sleep(1)
                 #print('stack size: {}'.format(len(frontier_stack)))
                 # remove node from the stack
-                node = frontier_stack.pop()
+                node = previous_first_encounters.pop()
 
                 # make sure we aren't infinitely repeating ourselves
                 #if repeat_comparison is not None and node == repeat_comparison:
                     #print('REPEAT FOUND')
                     #break
 
-                mach = node[0][0]
-                facula = node[0][1]
+                mach = long(node[0][0])
+                facula = long(node[0][1])
 
                 node_depth = node[1]
                 #print('node {}'.format(node))
@@ -137,7 +142,7 @@ def solution(m, f):
                         if mach+facula <= tm:
                             pushed_nodes += 1
                             node_to_push = ((mach+facula, facula), node_depth)
-                            frontier_stack.append(node_to_push)
+                            #frontier_stack.append(node_to_push)
                             if node_depth == depth_limit:
                                 first_encounters.append(node_to_push)
 
@@ -145,17 +150,19 @@ def solution(m, f):
                         if mach+facula <= tf:
                             pushed_nodes += 1
                             node_to_push = ((mach, facula+mach), node_depth)
-                            frontier_stack.append(node_to_push)
+                            #frontier_stack.append(node_to_push)
                             if node_depth == depth_limit:
                                 first_encounters.append(node_to_push)
-            out_of_range = 0
+            #previous_first_encounters = copy.deepcopy(first_encounters)
+            out_of_range = long(0)
             for node in first_encounters:
-                mach = node[0][0]
-                facula = node[0][1]
+                mach = long(node[0][0])
+                facula = long(node[0][1])
                 if mach > tm and facula > tf:
                     out_of_range += 1
-            if out_of_range == len(first_encounters):
+            if out_of_range == long(len(first_encounters)):
                 failed = True
+            #first_encounters = []
         depth_limit += 1
     return "impossible"
 
@@ -196,7 +203,9 @@ print('1234, 5678...')
 print(solution('1234', '5678'))
 time.sleep(2)
 print('Resuming...')
-#print(solution('10000', '10000'))
+print('10000, 10000')
+print(solution('10000', '10000'))
+time.sleep(2)
 #print(solution(str(10**5), str((10**5-1))))
 
 
