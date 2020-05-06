@@ -1,7 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="fb70ebda-e5ad-4f3e-ab78-ba37406bddfc" name="Default Changelist" comment="" />
+    <list default="true" id="fb70ebda-e5ad-4f3e-ab78-ba37406bddfc" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/level_3/1_bomb-baby/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/level_3/1_bomb-baby/bomb_baby.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/level_3/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/google foobar.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/google foobar.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -27,8 +52,8 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../binary-space-partitioning-engine" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.editor" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -40,6 +65,34 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\henry\PycharmProjects\google foobar" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="bomb_baby" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="google foobar" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/level_3/1_bomb-baby" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/level_3/1_bomb-baby/bomb_baby.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.bomb_baby" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -97,6 +150,18 @@
     <option name="localTasksCounter" value="7" />
     <servers />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first version of bunny_prisoner_locating.py" />
     <MESSAGE value="finished slimming down logic of first version, need to clean up the code" />
@@ -114,17 +179,50 @@
     </state>
     <state x="240" y="-1" width="691" height="526" key="CommitChangelistDialog2/0.0.1368.912@0.0.1368.912" timestamp="1588464891127" />
     <state x="337" y="127" key="CommitChangelistDialog2/0.23.1920.1057@0.23.1920.1057" timestamp="1588556894296" />
-    <state x="469" y="190" key="SettingsEditor" timestamp="1588475717065">
-      <screen x="0" y="23" width="1920" height="1057" />
+    <state x="560" y="285" key="FileChooserDialogImpl" timestamp="1588741987769">
+      <screen x="0" y="0" width="1280" height="984" />
     </state>
+    <state x="560" y="285" key="FileChooserDialogImpl/0.0.1280.984@0.0.1280.984" timestamp="1588741987769" />
+    <state width="1259" height="272" key="GridCell.Tab.0.bottom" timestamp="1588708612019">
+      <screen x="0" y="0" width="1280" height="984" />
+    </state>
+    <state width="1259" height="272" key="GridCell.Tab.0.bottom/0.0.1280.984@0.0.1280.984" timestamp="1588708612019" />
+    <state width="1259" height="272" key="GridCell.Tab.0.center" timestamp="1588708612019">
+      <screen x="0" y="0" width="1280" height="984" />
+    </state>
+    <state width="1259" height="272" key="GridCell.Tab.0.center/0.0.1280.984@0.0.1280.984" timestamp="1588708612019" />
+    <state width="1259" height="272" key="GridCell.Tab.0.left" timestamp="1588708612019">
+      <screen x="0" y="0" width="1280" height="984" />
+    </state>
+    <state width="1259" height="272" key="GridCell.Tab.0.left/0.0.1280.984@0.0.1280.984" timestamp="1588708612019" />
+    <state width="1259" height="272" key="GridCell.Tab.0.right" timestamp="1588708612019">
+      <screen x="0" y="0" width="1280" height="984" />
+    </state>
+    <state width="1259" height="272" key="GridCell.Tab.0.right/0.0.1280.984@0.0.1280.984" timestamp="1588708612019" />
+    <state x="217" y="180" key="SettingsEditor" timestamp="1588699924568">
+      <screen x="0" y="0" width="1280" height="984" />
+    </state>
+    <state x="217" y="180" key="SettingsEditor/0.0.1280.984@0.0.1280.984" timestamp="1588699924568" />
     <state x="469" y="190" key="SettingsEditor/0.23.1920.1057@0.23.1920.1057" timestamp="1588475717065" />
     <state x="763" y="472" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1588465334372">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
     <state x="763" y="472" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1920.1057@0.23.1920.1057" timestamp="1588465334372" />
-    <state x="305" y="258" width="670" height="676" key="search.everywhere.popup" timestamp="1588555054308">
-      <screen x="0" y="23" width="1920" height="1057" />
+    <state x="203" y="219" width="672" height="630" key="search.everywhere.popup" timestamp="1588743180277">
+      <screen x="0" y="0" width="1280" height="984" />
     </state>
+    <state x="203" y="219" width="672" height="630" key="search.everywhere.popup/0.0.1280.984@0.0.1280.984" timestamp="1588743180277" />
     <state x="305" y="258" width="670" height="676" key="search.everywhere.popup/0.23.1920.1057@0.23.1920.1057" timestamp="1588555054308" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/level_3/1_bomb-baby/bomb_baby.py</url>
+          <line>84</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
