@@ -19,7 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fb70ebda-e5ad-4f3e-ab78-ba37406bddfc" name="Default Changelist" comment="first try with bomb_baby.py, failed 5/5 test cases">
+    <list default="true" id="fb70ebda-e5ad-4f3e-ab78-ba37406bddfc" name="Default Changelist" comment="passed 2/5 test cases">
+      <change beforePath="$PROJECT_DIR$/.idea/google foobar.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/google foobar.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/level_3/1_bomb-baby/bomb_baby.py" beforeDir="false" afterPath="$PROJECT_DIR$/level_3/1_bomb-baby/bomb_baby.py" afterDir="false" />
     </list>
@@ -49,7 +51,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../binary-space-partitioning-engine" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.editor" />
+    <property name="settings.editor.selected.configurable" value="debugger.stepping" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -164,42 +166,60 @@
     <MESSAGE value="passed 8/10 test cases (failed 3 and 6) for hey_i_already_did_that.py" />
     <MESSAGE value="passed all 10 test cases for hey_i_already_did_that.py" />
     <MESSAGE value="first try with bomb_baby.py, failed 5/5 test cases" />
-    <option name="LAST_COMMIT_MESSAGE" value="first try with bomb_baby.py, failed 5/5 test cases" />
+    <MESSAGE value="passed 2/5 test cases" />
+    <option name="LAST_COMMIT_MESSAGE" value="passed 2/5 test cases" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="140" y="111" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1588388220318">
-      <screen x="0" y="0" width="1368" height="912" />
+    <state x="131" y="120" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1588800076339">
+      <screen x="0" y="0" width="1280" height="984" />
     </state>
+    <state x="131" y="120" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.984@0.0.1280.984" timestamp="1588800076339" />
     <state x="140" y="111" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1368.912@0.0.1368.912" timestamp="1588388220318" />
     <state x="337" y="127" width="691" height="526" key="CommitChangelistDialog2" timestamp="1588556894296">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
     <state x="240" y="-1" width="691" height="526" key="CommitChangelistDialog2/0.0.1368.912@0.0.1368.912" timestamp="1588464891127" />
     <state x="337" y="127" key="CommitChangelistDialog2/0.23.1920.1057@0.23.1920.1057" timestamp="1588556894296" />
-    <state x="560" y="285" key="FileChooserDialogImpl" timestamp="1588741987769">
+    <state x="560" y="285" key="FileChooserDialogImpl" timestamp="1588784313892">
       <screen x="0" y="0" width="1280" height="984" />
     </state>
-    <state x="560" y="285" key="FileChooserDialogImpl/0.0.1280.984@0.0.1280.984" timestamp="1588741987769" />
-    <state width="1259" height="272" key="GridCell.Tab.0.bottom" timestamp="1588708612019">
+    <state x="560" y="285" key="FileChooserDialogImpl/0.0.1280.984@0.0.1280.984" timestamp="1588784313892" />
+    <state width="1259" height="262" key="GridCell.Tab.0.bottom" timestamp="1588804238716">
       <screen x="0" y="0" width="1280" height="984" />
     </state>
-    <state width="1259" height="272" key="GridCell.Tab.0.bottom/0.0.1280.984@0.0.1280.984" timestamp="1588708612019" />
-    <state width="1259" height="272" key="GridCell.Tab.0.center" timestamp="1588708612019">
+    <state width="1259" height="262" key="GridCell.Tab.0.bottom/0.0.1280.984@0.0.1280.984" timestamp="1588804238716" />
+    <state width="1259" height="262" key="GridCell.Tab.0.center" timestamp="1588804238716">
       <screen x="0" y="0" width="1280" height="984" />
     </state>
-    <state width="1259" height="272" key="GridCell.Tab.0.center/0.0.1280.984@0.0.1280.984" timestamp="1588708612019" />
-    <state width="1259" height="272" key="GridCell.Tab.0.left" timestamp="1588708612019">
+    <state width="1259" height="262" key="GridCell.Tab.0.center/0.0.1280.984@0.0.1280.984" timestamp="1588804238716" />
+    <state width="1259" height="262" key="GridCell.Tab.0.left" timestamp="1588804238716">
       <screen x="0" y="0" width="1280" height="984" />
     </state>
-    <state width="1259" height="272" key="GridCell.Tab.0.left/0.0.1280.984@0.0.1280.984" timestamp="1588708612019" />
-    <state width="1259" height="272" key="GridCell.Tab.0.right" timestamp="1588708612019">
+    <state width="1259" height="262" key="GridCell.Tab.0.left/0.0.1280.984@0.0.1280.984" timestamp="1588804238716" />
+    <state width="1259" height="262" key="GridCell.Tab.0.right" timestamp="1588804238716">
       <screen x="0" y="0" width="1280" height="984" />
     </state>
-    <state width="1259" height="272" key="GridCell.Tab.0.right/0.0.1280.984@0.0.1280.984" timestamp="1588708612019" />
-    <state x="217" y="180" key="SettingsEditor" timestamp="1588699924568">
+    <state width="1259" height="262" key="GridCell.Tab.0.right/0.0.1280.984@0.0.1280.984" timestamp="1588804238716" />
+    <state width="1259" height="325" key="GridCell.Tab.1.bottom" timestamp="1588802367538">
       <screen x="0" y="0" width="1280" height="984" />
     </state>
-    <state x="217" y="180" key="SettingsEditor/0.0.1280.984@0.0.1280.984" timestamp="1588699924568" />
+    <state width="1259" height="325" key="GridCell.Tab.1.bottom/0.0.1280.984@0.0.1280.984" timestamp="1588802367538" />
+    <state width="1259" height="325" key="GridCell.Tab.1.center" timestamp="1588802367538">
+      <screen x="0" y="0" width="1280" height="984" />
+    </state>
+    <state width="1259" height="325" key="GridCell.Tab.1.center/0.0.1280.984@0.0.1280.984" timestamp="1588802367538" />
+    <state width="1259" height="325" key="GridCell.Tab.1.left" timestamp="1588802367538">
+      <screen x="0" y="0" width="1280" height="984" />
+    </state>
+    <state width="1259" height="325" key="GridCell.Tab.1.left/0.0.1280.984@0.0.1280.984" timestamp="1588802367538" />
+    <state width="1259" height="325" key="GridCell.Tab.1.right" timestamp="1588802367538">
+      <screen x="0" y="0" width="1280" height="984" />
+    </state>
+    <state width="1259" height="325" key="GridCell.Tab.1.right/0.0.1280.984@0.0.1280.984" timestamp="1588802367538" />
+    <state x="217" y="180" key="SettingsEditor" timestamp="1588800023070">
+      <screen x="0" y="0" width="1280" height="984" />
+    </state>
+    <state x="217" y="180" key="SettingsEditor/0.0.1280.984@0.0.1280.984" timestamp="1588800023070" />
     <state x="469" y="190" key="SettingsEditor/0.23.1920.1057@0.23.1920.1057" timestamp="1588475717065" />
     <state x="232" y="224" key="Vcs.Push.Dialog.v2" timestamp="1588744741770">
       <screen x="0" y="0" width="1280" height="984" />
@@ -214,5 +234,30 @@
     </state>
     <state x="203" y="219" width="672" height="630" key="search.everywhere.popup/0.0.1280.984@0.0.1280.984" timestamp="1588743180277" />
     <state x="305" y="258" width="670" height="676" key="search.everywhere.popup/0.23.1920.1057@0.23.1920.1057" timestamp="1588555054308" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/level_3/1_bomb-baby/bomb_baby.py</url>
+          <line>159</line>
+          <option name="timeStamp" value="33" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="PythonConfigurationType">
+        <watch expression="failed" />
+        <watch expression="node_depth" />
+        <watch expression="mach" />
+        <watch expression="facula" />
+        <watch expression="node" />
+        <watch expression="frontier_stack" />
+        <watch expression="repeat_comparison" />
+        <watch expression="depth_limit" />
+        <watch expression="tf" />
+        <watch expression="tm" />
+      </configuration>
+    </watches-manager>
   </component>
 </project>
