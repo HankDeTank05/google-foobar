@@ -19,13 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fb70ebda-e5ad-4f3e-ab78-ba37406bddfc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/level_3/1_bomb-baby/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/level_3/1_bomb-baby/bomb_baby.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/level_3/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/google foobar.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/google foobar.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="fb70ebda-e5ad-4f3e-ab78-ba37406bddfc" name="Default Changelist" comment="first try with bomb_baby.py, failed 5/5 test cases">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/level_3/1_bomb-baby/bomb_baby.py" beforeDir="false" afterPath="$PROJECT_DIR$/level_3/1_bomb-baby/bomb_baby.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -167,7 +163,8 @@
     <MESSAGE value="finished slimming down logic of first version, need to clean up the code" />
     <MESSAGE value="passed 8/10 test cases (failed 3 and 6) for hey_i_already_did_that.py" />
     <MESSAGE value="passed all 10 test cases for hey_i_already_did_that.py" />
-    <option name="LAST_COMMIT_MESSAGE" value="passed all 10 test cases for hey_i_already_did_that.py" />
+    <MESSAGE value="first try with bomb_baby.py, failed 5/5 test cases" />
+    <option name="LAST_COMMIT_MESSAGE" value="first try with bomb_baby.py, failed 5/5 test cases" />
   </component>
   <component name="WindowStateProjectService">
     <state x="140" y="111" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1588388220318">
@@ -204,6 +201,10 @@
     </state>
     <state x="217" y="180" key="SettingsEditor/0.0.1280.984@0.0.1280.984" timestamp="1588699924568" />
     <state x="469" y="190" key="SettingsEditor/0.23.1920.1057@0.23.1920.1057" timestamp="1588475717065" />
+    <state x="232" y="224" key="Vcs.Push.Dialog.v2" timestamp="1588744741770">
+      <screen x="0" y="0" width="1280" height="984" />
+    </state>
+    <state x="232" y="224" key="Vcs.Push.Dialog.v2/0.0.1280.984@0.0.1280.984" timestamp="1588744741770" />
     <state x="763" y="472" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1588465334372">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
@@ -213,16 +214,5 @@
     </state>
     <state x="203" y="219" width="672" height="630" key="search.everywhere.popup/0.0.1280.984@0.0.1280.984" timestamp="1588743180277" />
     <state x="305" y="258" width="670" height="676" key="search.everywhere.popup/0.23.1920.1057@0.23.1920.1057" timestamp="1588555054308" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/level_3/1_bomb-baby/bomb_baby.py</url>
-          <line>84</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
