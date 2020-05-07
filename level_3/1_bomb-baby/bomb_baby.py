@@ -206,7 +206,13 @@ print('Resuming...')
 print('10000, 10000')
 print(solution('10000', '10000'))
 time.sleep(2)
-#print(solution(str(10**5), str((10**5-1))))
+print('Resuming...')
+print('10000, 9999')
+print(solution('10000', '9999'))
+time.sleep(2)
+print('Resuming...')
+print('10**5, (10**5)-1')
+print(solution(str(10**5), str((10**5-1))))
 
 
 if __name__ == "__main__":
