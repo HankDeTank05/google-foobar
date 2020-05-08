@@ -86,7 +86,7 @@ import timeit
     return "impossible"'''
 
 import copy
-import numpy as np
+#import numpy as np
 def solution(m, f):
     tm = long(m)
     tf = long(f)
@@ -203,8 +203,8 @@ print('1234, 5678...')
 print(solution('1234', '5678'))
 time.sleep(2)
 print('Resuming...')
-print('10000, 10000')
-print(solution('10000', '10000'))
+print('10000, 9999')
+print(solution('10000', '9999'))
 time.sleep(2)
 print('Resuming...')
 print('10000, 9999')

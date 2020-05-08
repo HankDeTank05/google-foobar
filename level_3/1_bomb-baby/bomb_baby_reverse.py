@@ -6,7 +6,7 @@ If 1,1 is NOT reachable, return "impossible"
 """
 import copy
 import time
-import numpy as np
+#import numpy as np
 import logging
 logging.basicConfig(filename='bomb_baby_reverse_log', level=logging.DEBUG)
 
@@ -147,6 +147,30 @@ def solution(m, f):
 
         depth_limit += 1
     return "impossible"
+
+def solution2(M, F):
+    def trace_backwards(mach, facula, depth):
+        print(mach, facula)
+        if mach == 1 and facula > 1:
+            return str(depth + facula - 1)
+        elif mach > 1 and facula == 1:
+            return str(depth + mach - 1)
+        elif mach == 1 and facula == 1:
+            return str(depth)
+        elif mach == facula or max(mach, facula) % min(mach, facula) == 0:
+            return 'impossible'
+        else:
+            if mach > facula:
+                goes_into_times = mach//facula
+                return trace_backwards(mach-facula*goes_into_times, facula, depth+goes_into_times)
+            elif facula > mach:
+                goes_into_times = facula//mach
+                return trace_backwards(mach, facula-mach*goes_into_times, depth+goes_into_times)
+
+    tm, tf = long(M), long(F)
+    return trace_backwards(tm, tf, 0)
+
+print(solution2('8', '3'))
 
 
 '''print('4, 7...')
