@@ -15,7 +15,7 @@ def solution(m, f):
     tm = long(m)
     tf = long(f)
 
-    # if one of the targets (m or f) is greater than the other by one, it exists.
+    '''# if one of the targets (m or f) is greater than the other by one, it exists.
     # it exists in the tree at the level of the smaller target value
     if tm == tf - 1 or tf == tm - 1:
         return str(min(tm, tf))
@@ -31,7 +31,7 @@ def solution(m, f):
     # otherwise if one of the values is 1, and the other is any number greater than it, it exists
     # at depth level of (larger value)-1
     elif min(tm, tf) == 1 and max(tm, tf) > 1:
-        return str(max(tm, tf) - 1)
+        return str(max(tm, tf) - 1)'''
 
     # the initial depth limit of the IDDFS is 0
     depth_limit = 0
@@ -149,7 +149,7 @@ def solution(m, f):
     return "impossible"
 
 
-print('4, 7...')
+'''print('4, 7...')
 print(solution('4', '7'))
 time.sleep(2)
 print('2, 1...')
@@ -158,13 +158,7 @@ time.sleep(2)
 print('2, 4...')
 print(solution('2', '4'))
 time.sleep(2)
-
-if solution('2', '4') != solution('4', '2'):
-    print('2,4 and its mirror are not equivalent!')
-else:
-    print('2,4 and its mirror are equivalent!')
-
-'''print('10, 12...')
+print('10, 12...')
 print(solution('10', '12'))
 time.sleep(2)
 print('10, 11...')

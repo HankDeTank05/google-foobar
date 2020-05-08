@@ -19,12 +19,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fb70ebda-e5ad-4f3e-ab78-ba37406bddfc" name="Default Changelist" comment="passed 4/5 test cases with bomb_baby_reverse.py">
-      <change afterPath="$PROJECT_DIR$/level_3/1_bomb-baby/bomb_baby_reverse_log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/level_3/1_bomb-baby/test/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/level_3/1_bomb-baby/test_bomb_baby_reverse.py" afterDir="false" />
+    <list default="true" id="fb70ebda-e5ad-4f3e-ab78-ba37406bddfc" name="Default Changelist" comment="created test_bomb_baby_reverse.py">
+      <change afterPath="$PROJECT_DIR$/level_3/1_bomb-baby/visualize_tree.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/level_3/1_bomb-baby/bomb_baby_reverse.py" beforeDir="false" afterPath="$PROJECT_DIR$/level_3/1_bomb-baby/bomb_baby_reverse.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/level_3/1_bomb-baby/test_bomb_baby_reverse.py" beforeDir="false" afterPath="$PROJECT_DIR$/level_3/1_bomb-baby/test_bomb_baby_reverse.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,8 +53,8 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/level_3/1_bomb-baby/bomb_baby_reverse.py" />
-    <property name="settings.editor.selected.configurable" value="coverage" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/level_3/1_bomb-baby/visualize_tree.py" />
+    <property name="settings.editor.selected.configurable" value="preferences.editor.code.editing" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -69,7 +68,7 @@
       <recent name="C:\Users\henry\PycharmProjects\google foobar\level_1" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.bomb_baby_reverse">
+  <component name="RunManager" selected="Python.visualize_tree">
     <configuration name="bomb_baby" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="google foobar" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -112,6 +111,27 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="visualize_tree" type="PythonConfigurationType" factoryName="Python">
+      <module name="google foobar" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\henry\.virtualenvs\google-foobar\Scripts\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/level_3/1_bomb-baby" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/level_3/1_bomb-baby/visualize_tree.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="Unittests in test_bomb_baby_reverse.py" type="tests" factoryName="Unittests" nameIsGenerated="true">
       <module name="google foobar" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -128,6 +148,7 @@
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="Python.visualize_tree" />
       <item itemvalue="Python.bomb_baby_reverse" />
       <item itemvalue="Python.bomb_baby" />
       <item itemvalue="Python tests.Unittests in test_bomb_baby_reverse.py" />
@@ -217,17 +238,18 @@
     <MESSAGE value="successfully optimized code (switched from bfs to iddfs)" />
     <MESSAGE value="successfully optimized iddfs" />
     <MESSAGE value="passed 4/5 test cases with bomb_baby_reverse.py" />
-    <option name="LAST_COMMIT_MESSAGE" value="passed 4/5 test cases with bomb_baby_reverse.py" />
+    <MESSAGE value="created test_bomb_baby_reverse.py" />
+    <option name="LAST_COMMIT_MESSAGE" value="created test_bomb_baby_reverse.py" />
   </component>
   <component name="WindowStateProjectService">
     <state x="349" y="92" key="#Unittests_in_test_bomb_baby_reverse.py" timestamp="1588886488153">
       <screen x="0" y="0" width="1280" height="984" />
     </state>
     <state x="349" y="92" key="#Unittests_in_test_bomb_baby_reverse.py/0.0.1280.984@0.0.1280.984" timestamp="1588886488153" />
-    <state x="131" y="120" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1588897067715">
+    <state x="131" y="120" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1588902867296">
       <screen x="0" y="0" width="1280" height="984" />
     </state>
-    <state x="131" y="120" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.984@0.0.1280.984" timestamp="1588897067715" />
+    <state x="131" y="120" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.984@0.0.1280.984" timestamp="1588902867296" />
     <state x="140" y="111" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1368.912@0.0.1368.912" timestamp="1588388220318" />
     <state x="337" y="127" width="691" height="526" key="CommitChangelistDialog2" timestamp="1588556894296">
       <screen x="0" y="23" width="1920" height="1057" />
@@ -238,26 +260,26 @@
       <screen x="0" y="0" width="1280" height="984" />
     </state>
     <state x="92" y="92" width="1096" height="800" maximized="true" key="DiffContextDialog/0.0.1280.984@0.0.1280.984" timestamp="1588807863990" />
-    <state x="560" y="285" key="FileChooserDialogImpl" timestamp="1588897022186">
+    <state x="560" y="285" key="FileChooserDialogImpl" timestamp="1588902864272">
       <screen x="0" y="0" width="1280" height="984" />
     </state>
-    <state x="560" y="285" key="FileChooserDialogImpl/0.0.1280.984@0.0.1280.984" timestamp="1588897022186" />
-    <state width="1259" height="325" key="GridCell.Tab.0.bottom" timestamp="1588896636454">
+    <state x="560" y="285" key="FileChooserDialogImpl/0.0.1280.984@0.0.1280.984" timestamp="1588902864272" />
+    <state width="1259" height="262" key="GridCell.Tab.0.bottom" timestamp="1588903659575">
       <screen x="0" y="0" width="1280" height="984" />
     </state>
-    <state width="1259" height="325" key="GridCell.Tab.0.bottom/0.0.1280.984@0.0.1280.984" timestamp="1588896636454" />
-    <state width="1259" height="325" key="GridCell.Tab.0.center" timestamp="1588896636454">
+    <state width="1259" height="262" key="GridCell.Tab.0.bottom/0.0.1280.984@0.0.1280.984" timestamp="1588903659575" />
+    <state width="1259" height="262" key="GridCell.Tab.0.center" timestamp="1588903659575">
       <screen x="0" y="0" width="1280" height="984" />
     </state>
-    <state width="1259" height="325" key="GridCell.Tab.0.center/0.0.1280.984@0.0.1280.984" timestamp="1588896636454" />
-    <state width="1259" height="325" key="GridCell.Tab.0.left" timestamp="1588896636454">
+    <state width="1259" height="262" key="GridCell.Tab.0.center/0.0.1280.984@0.0.1280.984" timestamp="1588903659575" />
+    <state width="1259" height="262" key="GridCell.Tab.0.left" timestamp="1588903659575">
       <screen x="0" y="0" width="1280" height="984" />
     </state>
-    <state width="1259" height="325" key="GridCell.Tab.0.left/0.0.1280.984@0.0.1280.984" timestamp="1588896636454" />
-    <state width="1259" height="325" key="GridCell.Tab.0.right" timestamp="1588896636454">
+    <state width="1259" height="262" key="GridCell.Tab.0.left/0.0.1280.984@0.0.1280.984" timestamp="1588903659575" />
+    <state width="1259" height="262" key="GridCell.Tab.0.right" timestamp="1588903659575">
       <screen x="0" y="0" width="1280" height="984" />
     </state>
-    <state width="1259" height="325" key="GridCell.Tab.0.right/0.0.1280.984@0.0.1280.984" timestamp="1588896636454" />
+    <state width="1259" height="262" key="GridCell.Tab.0.right/0.0.1280.984@0.0.1280.984" timestamp="1588903659575" />
     <state width="1259" height="325" key="GridCell.Tab.1.bottom" timestamp="1588809625971">
       <screen x="0" y="0" width="1280" height="984" />
     </state>
@@ -274,10 +296,10 @@
       <screen x="0" y="0" width="1280" height="984" />
     </state>
     <state width="1259" height="325" key="GridCell.Tab.1.right/0.0.1280.984@0.0.1280.984" timestamp="1588809625971" />
-    <state x="217" y="180" key="SettingsEditor" timestamp="1588897133632">
+    <state x="217" y="180" key="SettingsEditor" timestamp="1588897568123">
       <screen x="0" y="0" width="1280" height="984" />
     </state>
-    <state x="217" y="180" key="SettingsEditor/0.0.1280.984@0.0.1280.984" timestamp="1588897133632" />
+    <state x="217" y="180" key="SettingsEditor/0.0.1280.984@0.0.1280.984" timestamp="1588897568123" />
     <state x="469" y="190" key="SettingsEditor/0.23.1920.1057@0.23.1920.1057" timestamp="1588475717065" />
     <state x="232" y="224" key="Vcs.Push.Dialog.v2" timestamp="1588744741770">
       <screen x="0" y="0" width="1280" height="984" />
@@ -287,6 +309,10 @@
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
     <state x="763" y="472" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1920.1057@0.23.1920.1057" timestamp="1588465334372" />
+    <state x="296" y="226" key="run.anything.popup" timestamp="1588897614820">
+      <screen x="0" y="0" width="1280" height="984" />
+    </state>
+    <state x="296" y="226" key="run.anything.popup/0.0.1280.984@0.0.1280.984" timestamp="1588897614820" />
     <state x="203" y="219" width="672" height="630" key="search.everywhere.popup" timestamp="1588743180277">
       <screen x="0" y="0" width="1280" height="984" />
     </state>
