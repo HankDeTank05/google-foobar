@@ -3,6 +3,10 @@ THIS IS MEANT TO BE THE REVERSE OF bomb_baby.py's SOLUTION
 instead of starting from 1,1 and searching downwards, start from tm, tf and work backwards towards 1,1
 If 1,1 is reachable, return the shortest number of moves to get there
 If 1,1 is NOT reachable, return "impossible"
+
+TUTORIALS USED:
+https://www.youtube.com/watch?v=7QcoJjSVT38
+https://www.youtube.com/watch?v=5MpT0EcOIyM&t=192s
 """
 import copy
 import time
